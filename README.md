@@ -63,7 +63,7 @@ routeRest.getJsonDirections(new LatLng(50.126922, 19.015261), new LatLng(50.2002
 
 The most important part here is
 
-```
+```java
 ...
 .map(new Func1<String, Routes>() {
                     @Override
@@ -85,10 +85,12 @@ void drawPath(Routes routes);
 
 We are almost there but before we invoke draw method we have to build our drawer using RouteDrawerBuilder.
 It allows us to customize a little bit the path and the markers. It requires to get GoogleMap(!) and if we want we can provide
+```
 - marker icon
 - path width
 - path color
 - marker alpha
+```
 
 This can look as
 
