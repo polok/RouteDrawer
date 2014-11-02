@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
 
         final RouteDrawer routeDrawer = new RouteDrawer.RouteDrawerBuilder(googleMap)
                 .withColor(Color.BLUE)
+                .withWidth(8)
                 .withAlpha(0.5f)
                 .withMarkerIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_ORANGE))
                 .build();

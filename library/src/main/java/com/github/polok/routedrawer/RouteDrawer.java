@@ -113,7 +113,7 @@ public class RouteDrawer implements DrawerApi {
             return this;
         }
 
-        public RouteDrawerBuilder withWidht(int pathWidth) {
+        public RouteDrawerBuilder withWidth(int pathWidth) {
             this.pathWidth = pathWidth;
             return this;
         }
