@@ -13,6 +13,8 @@ RouteApi is responsible for sending request to Google's Direction API and handli
  - DrawerApi
 DrawerApi is responsible for drawing the path on the map
 
+![image](art/demo.png)
+
 USAGE
 ===========
 First we have to download the path. For this we need to provide two points (start and end) and travel mode.
