@@ -8,10 +8,10 @@ RouteDrawer wraps Google Directions API (https://developers.google.com/maps/docu
 The library contains two main parts.
 
  - RouteApi
-RouteApi is responsible for sending request to Google's Direction API and handling the response
+    is responsible for sending request to Google's Direction API and handling the response
 
  - DrawerApi
-DrawerApi is responsible for drawing the path on the map
+    is responsible for drawing the path on the map
 
 ![image](art/demo.png)
 
