@@ -15,6 +15,16 @@ The library contains two main parts.
 
 ![image](art/demo.png)
 
+GRADLE
+===========
+If you are using gradle you have to add this one line of code to your build.gradle file under dependencies section:
+
+```xml
+    compile 'com.github.polok.routedrawer:library:1.0.0'
+```
+
+In other case you have to take whole library project.
+
 USAGE
 ===========
 First we have to download the path. For this we need to provide two points (start and end) and travel mode.
