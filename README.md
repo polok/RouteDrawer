@@ -1,9 +1,8 @@
 RouteDrawer
 ===========
 
-RouteDrawer wraps Google Directions API (https://developers.google.com/maps/documentation/directions/) using RxJava for Android so developers can download, parse and draw path on the map in very fast and flexible way.
-
-(For now only JSON support)
+RouteDrawer wraps Google Directions API (https://developers.google.com/maps/documentation/directions/) using RxJava for Android so developers can download, parse and draw path on the map in very fast and flexible way (For now only JSON support).
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-RouteDrawer-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1106)
 
 The library contains two main parts.
 
